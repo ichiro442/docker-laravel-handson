@@ -1,0 +1,110 @@
+/* 共通 */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+list-style: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+}
+/* header */
+header{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF8178;
+}
+.header-right{
+    border-bottom: none;
+}
+/* main */
+main{
+    width: 100%;
+    height: 50rem;
+}
+.main_box{
+    flex-direction: column;
+}
+ul{
+    border-bottom: 1px solid red;
+    margin-bottom: 3rem;
+}
+.search_box{
+    width: 20rem;
+    height: 30rem;
+}
+.search_btn{
+    width: 8rem;
+    height: 2rem;
+}
+.search_list_box{
+    width: 100%;
+    height: 100%;
+}
+.search_lists{
+width: 100%;
+height: 100%;
+background-color: #FF8178;
+}
+.search_list{
+    width: 12rem;
+    height: 1.8rem;
+}
+.back_btn{
+    width: 5rem;
+    height:2rem;
+}
+
+form{
+    height: 4rem;
+}
+.search_text{
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.4rem;
+}
+.submit{
+    width: 4rem;
+    height: 3rem;
+}
+/* resulut.blade.php */
+h1{
+    margin-left: 2rem;
+}
+.back_btn{
+    width: 5rem;
+    height: 50%;
+    margin: 1rem;
+    background-color: white;
+}
+.back_btn a{
+    color: black;
+}
+.search_words{
+    width: 40%;
+    height: 5rem;
+    margin: 1rem auto;
+    background-color: #38ca09;
+}
+.search_word{
+    font-size: 1.3rem;
+}
+.search_words p{
+    margin: 2rem;
+}
+
+
